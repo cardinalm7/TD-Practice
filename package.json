@@ -1,0 +1,32 @@
+{
+  "name": "TD-Practice",
+  "version": "1.0.0",
+  "description": "To Do List",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cardinalm7/TD-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cardinalm7/TD-Practice/issues"
+  },
+  "homepage": "https://github.com/cardinalm7/TD-Practice#readme",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "serve-static": "^1.13.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.5.0"
+  }
+}
